@@ -30,7 +30,7 @@ public class BasicConstructor {
         Person p1 = new Person();
         p1.display();
         // parameterized
-        Person p2 = new Person("Uthso", 23);
+        Person p2 = new Person("Mahmud", 23);
         p2.display();
     }
 }
