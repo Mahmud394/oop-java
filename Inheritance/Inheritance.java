@@ -16,8 +16,8 @@ class Triangle extends Shape {
 
 class EquilateralTriangle extends Triangle {
     public void area(int l, int h) {
-        super.area();
         super.area(l, h);
+        super.area();
         System.out.println("Area of Equilateral Triangle is: " + 0.5 * l * h);
     }
 } // Multi level inheritance

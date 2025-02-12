@@ -1,5 +1,5 @@
 package Polymorphsim;
-
+//Method OverRiding
 class Animal {
     void sound() {
         System.out.println("Animal makes a sound");
