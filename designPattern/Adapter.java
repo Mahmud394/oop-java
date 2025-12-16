@@ -37,7 +37,7 @@ class BkashAdapter implements PaymentSystem {
 }
 
 // Client
-public class Adapter_Pattern {
+public class Adapter {
     public static void main(String[] args) {
         PaymentSystem payment1 = new CreditCardPayment();
         payment1.payAmount(5000);
